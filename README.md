@@ -23,7 +23,7 @@ Figure 3
 The screenshots reported in "Figure_3_EFSERS_file" and in "Figure_3_EFSERS_file_setup" show the simulation file and its configuration, used to evaluate the SERS enhancement factor of the vibration at 675 cm^-1 for a nanorods-TDBC sample.
 The simulated sample is the one with the highest value in Figure 3 (approximately 35000, blue line).
 The field was calculated at lambda_excitation = 580 nm and lambda_emission = 604 nm, as reported in "Figure_3_EFSERS_file_setup". These wavelengths were experimentally determined.
-
+"Figure_3_EFSERS_script.txt" is the script used to determine the EF_SERS after the simulation of the electromagnetic field.
 
 Figure_cover_EM_field
 
