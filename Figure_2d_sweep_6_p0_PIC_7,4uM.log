@@ -1,0 +1,150 @@
+Ansys Lumerical 2023 R2.3 FDTD Solver Version 8.30.3578 (Windows 64bit)
+ expires (month/day/year): 11/29/2023
+using config file: Ansys Licensing set with ANSYSLMD_LICENSE_FILE
+license host: 1055@localhost
+current time: Fri Nov 3 20:40:32 2023
+Running on host: DESKTOP-747Q283
+host available memory (GB): 27.918987
+All processes are communicating and ready to proceed to simulation...
+Running fsp file: C:\Program Files\Lumerical\v232\bin\fdtd-engine-msmpi.exe -t 1 -remote -hide -shared-solve-license QU5TWVNfTElDRU5TSU5HX0NPTlRFWFRfREFUQT08QU5TWVNfTElDRU5TSU5HX0NPTlRFWFRfREFUQT48SUQ+MjExOTc0MzctOTljNC00NjAwLTg0OTQtMTcyOTU3ZWNiYTlhPC9JRD48VFlQRT5BUFBfREVGSU5FRDwvVFlQRT48TkFNRT5sdW1fc3RhbmRhcmRfc29sdmVfc2hhcmU8L05BTUU+PEhBTkRMRVI+NTIwMjNAREVTS1RPUC03NDdRMjgzPC9IQU5ETEVSPjwvQU5TWVNfTElDRU5TSU5HX0NPTlRFWFRfREFUQT4K C:/Users/Admin/Desktop/Nicola/Sweep_for_extinction-Pol0_sweep/sweep_6.fsp
+number of processors is 12
+processors are distributed as: 2x3x2
+Running 3D Simulation
+Starting meshing
+Simulation size in gridpoints: 48 x 63 x 60
+Refined 0 mesh cells (0%)
+Completed meshing!
+Meshing complete in 0.0625 seconds of CPU time
+50624 50624
+Starting meshing
+Simulation size in gridpoints: 48 x 63 x 60
+Refined 0 mesh cells (0%)
+Completed meshing!
+Meshing complete in 0.078125 seconds of CPU time
+57680 57680
+Starting meshing
+Simulation size in gridpoints: 48 x 63 x 60
+Refined 0 mesh cells (0%)
+Completed meshing!
+Meshing complete in 0.046875 seconds of CPU time
+35504 35504
+finished material properties
+Meshing Time: 0.192734 seconds, Init Electrical Material Time: 0.0745018 seconds, Init Magnetic Material Time: 0.0006236
+Using selected optimization level: 2
+Selecting 3d kernel for splitFieldDirection=0 and optLevel=2
+-----------------------------------------
+Beginning initialization of 3D Simulation
+Starting to add sources to simulation
+Adding 3D TFSF source propagating in Y
+snapPEC is a duplicate key.
+Starting meshing
+Simulation size in gridpoints: 3 x 271 x 3
+Refined 0 mesh cells (0%)
+Completed meshing!
+Meshing complete in 0 seconds of CPU time
+0 0
+Starting meshing
+Simulation size in gridpoints: 3 x 271 x 3
+Refined 0 mesh cells (0%)
+Completed meshing!
+Meshing complete in 0 seconds of CPU time
+0 0
+Starting meshing
+Simulation size in gridpoints: 3 x 271 x 3
+Refined 0 mesh cells (0%)
+Completed meshing!
+Meshing complete in 0 seconds of CPU time
+0 0
+finished material properties
+Meshing Time: 0.0008513 seconds, Init Electrical Material Time: 0.0001629 seconds, Init Magnetic Material Time: 3e-06
+Using selected optimization level: 2
+Selecting 3d kernel for splitFieldDirection=0 and optLevel=2
+Starting to add boundary conditions to simulation
+Adding 3D Symmetric BC
+Adding 3D Parallel BC
+Adding 3D PML BC
+Adding 3D Parallel BC
+Adding 3D Anti-Symmetric BC
+Adding 3D Parallel BC
+Starting to add monitors to Simulation
+Adding analysis monitor
+Adding analysis monitor
+Adding 3D DFT monitor
+Monitor ::model::Scattering::x1 is outside the simulation and will not record any data
+Adding 3D DFT monitor
+Adding 3D DFT monitor
+Adding 3D DFT monitor
+Adding 3D DFT monitor
+Monitor ::model::Scattering::z1 is outside the simulation and will not record any data
+Adding 3D DFT monitor
+Adding analysis monitor
+Adding 3D DFT monitor
+Monitor ::model::Extinction::x1 is outside the simulation and will not record any data
+Adding 3D DFT monitor
+Adding 3D DFT monitor
+Adding 3D DFT monitor
+Adding 3D DFT monitor
+Monitor ::model::Extinction::z1 is outside the simulation and will not record any data
+Adding 3D DFT monitor
+Finished initialization of 3D Simulation
+-----------------------------------------
+All processes are communicating and ready to proceed to simulation...
+Starting 2098003 total iterations
+0.00228789% complete. Elapsed simulation time: 2.28789e-17 secs. Max time remaining: 12 hrs, 18 mins, 32 secs. Auto Shutoff: 1
+0.722211% complete. Elapsed simulation time: 7.22211e-15 secs. Max time remaining: 11 hrs, 30 mins, 32 secs. Auto Shutoff: 1
+1.50924% complete. Elapsed simulation time: 1.50924e-14 secs. Max time remaining: 10 hrs, 54 mins, 23 secs. Auto Shutoff: 1
+2.29628% complete. Elapsed simulation time: 2.29628e-14 secs. Max time remaining: 10 hrs, 39 mins, 55 secs. Auto Shutoff: 0.00129392
+3.08331% complete. Elapsed simulation time: 3.08331e-14 secs. Max time remaining: 10 hrs, 30 mins, 30 secs. Auto Shutoff: 0.00418317
+3.8673% complete. Elapsed simulation time: 3.8673e-14 secs. Max time remaining: 10 hrs, 23 mins, 21 secs. Auto Shutoff: 0.00147691
+4.64518% complete. Elapsed simulation time: 4.64518e-14 secs. Max time remaining: 10 hrs, 17 mins, 37 secs. Auto Shutoff: 0.000137731
+5.42001% complete. Elapsed simulation time: 5.42001e-14 secs. Max time remaining: 10 hrs, 12 mins, 18 secs. Auto Shutoff: 0.000104016
+6.16739% complete. Elapsed simulation time: 6.16739e-14 secs. Max time remaining: 10 hrs, 10 mins, 4 secs. Auto Shutoff: 2.40936e-05
+6.92392% complete. Elapsed simulation time: 6.92392e-14 secs. Max time remaining: 10 hrs, 6 mins, 21 secs. Auto Shutoff: 3.72685e-05
+7.68655% complete. Elapsed simulation time: 7.68655e-14 secs. Max time remaining: 10 hrs, 1 min, 51 secs. Auto Shutoff: 5.90654e-06
+8.40037% complete. Elapsed simulation time: 8.40037e-14 secs. Max time remaining: 10 hrs, 1 min, 8 secs. Auto Shutoff: 3.28312e-06
+9.09894% complete. Elapsed simulation time: 9.09894e-14 secs. Max time remaining: 10 hrs, 48 secs. Auto Shutoff: 1.59168e-06
+9.80361% complete. Elapsed simulation time: 9.80361e-14 secs. Max time remaining: 9 hrs, 59 mins, 19 secs. Auto Shutoff: 3.96706e-06
+10.4961% complete. Elapsed simulation time: 1.04961e-13 secs. Max time remaining: 9 hrs, 58 mins, 7 secs. Auto Shutoff: 1.3974e-06
+100% complete. Max time remaining: 0 mins, 0 secs. Auto Shutoff: 9.03233e-08
+Early termination of simulation, the autoshutoff criteria are satisfied.
+Completed 228841 iterations, or 1.090756e-13s of Simulation Time
+Process 0 starting to collect data
+    collecting monitor data
+Monitor ::model::Scattering::x1 is outside the simulation and will not record any data
+Monitor ::model::Scattering::z1 is outside the simulation and will not record any data
+Monitor ::model::Extinction::x1 is outside the simulation and will not record any data
+Monitor ::model::Extinction::z1 is outside the simulation and will not record any data
+    collecting source data
+snapPEC is a duplicate key.
+Starting meshing
+Simulation size in gridpoints: 3 x 271 x 3
+Refined 0 mesh cells (0.000000e+00%)
+Completed meshing!
+Meshing complete in 0.000000e+00 seconds of CPU time
+0 0
+Starting meshing
+Simulation size in gridpoints: 3 x 271 x 3
+Refined 0 mesh cells (0.000000e+00%)
+Completed meshing!
+Meshing complete in 0.000000e+00 seconds of CPU time
+0 0
+Starting meshing
+Simulation size in gridpoints: 3 x 271 x 3
+Refined 0 mesh cells (0.000000e+00%)
+Completed meshing!
+Meshing complete in 0.000000e+00 seconds of CPU time
+0 0
+finished material properties
+Meshing Time: 1.462600e-03 seconds, Init Electrical Material Time: 2.305000e-04 seconds, Init Magnetic Material Time: 5.400000e-06
+Using selected optimization level: 0
+Selecting 3d kernel for splitFieldDirection=0 and optLevel=0
+Finished collecting data
+Simulation completed successfully at: Fri Nov 3 21:53:46 2023
+Overall wall time measurements in seconds: 4395.14
+    time to mesh and initialize: 2.31014
+    time to run FDTD simulation: 4391.21
+    time to checkpoint simulation: 0
+    time to finalize data and save to files: 0.547044
+    miscellaneous time: 1.06702
+    FDTD solver speed on process 0: 9.45545 Mnodes/s
+    total FDTD solver speed on 12 processes: 113.465 Mnodes/s

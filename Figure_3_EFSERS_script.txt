@@ -1,0 +1,40 @@
+clear;
+closeall;
+
+E_top=getelectric("monitor_top"); #get the field intensity at the 2 exciting wavelength (lambda_excitation and lambda_emission)
+EF_top=E_top(:,:,:,1)*E_top(:,:,:,2); #calculate EF_SERS as the product of the squared field of the two fields
+EF_top_max=max(EF_top); #find the max of EF_SERS for this monitor
+
+#this procedure is repeated for all the monitors
+
+E_l1=getelectric("monitor_lateral_1");
+EF_l1=E_l1(:,:,:,1)*E_l1(:,:,:,2);
+EF_l1_max=max(EF_l1);
+
+E_l2=getelectric("monitor_lateral_2");
+EF_l2=E_l2(:,:,:,1)*E_l2(:,:,:,2);
+EF_l2_max=max(EF_l2);
+
+E_l3=getelectric("monitor_lateral_3");
+EF_l3=E_l3(:,:,:,1)*E_l3(:,:,:,2);
+EF_l3_max=max(EF_l3);
+
+E_m1=getelectric("monitor_medium_1");
+EF_m1=E_m1(:,:,:,1)*E_m1(:,:,:,2);
+EF_m1_max=max(EF_m1);
+
+E_m2=getelectric("monitor_medium_2");
+EF_m2=E_m2(:,:,:,1)*E_m2(:,:,:,2);
+EF_m2_max=max(EF_m2);
+
+E_m3=getelectric("monitor_medium_3");
+EF_m3=E_m3(:,:,:,1)*E_m3(:,:,:,2);
+EF_m3_max=max(EF_m3);
+
+# produce a vector that lists all the max EF for each monitor, and find the max
+EF_max_all_monitors=[EF_top_max,EF_l1_max,EF_l2_max,EF_l3_max,EF_m1_max,EF_m2_max,EF_m3_max];
+
+EF_max=max(EF_max_all_monitors); 
+
+#save
+savedata("EF_max");
