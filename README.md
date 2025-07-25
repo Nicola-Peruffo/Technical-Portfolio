@@ -19,12 +19,12 @@ These files contain the simulation data for the **transversal plasmon**.
 This is a screenshot from the same simulation as above, but with the light source polarised along the **long axis** of the nanorods, to reveal the **longitudinal plasmon** extinction.  
 The same file was used to retrieve the electromagnetic field using a very small mesh (0.05 nm, see Figure_cover_EM_field). Due to file size limitations, only a screenshot is included.
 
-### `Figure_2b_sweep_3_p0_PIC_0,3uM`
+### `Figure_2b_PIC_0,3uM`
 
 These files refer to the same simulation setup, with the addition of a **Lorentzian absorption** in the nanorod shell at the energy of the longitudinal plasmon.  
 The oscillator strength was set to 0.0475. This allowed the simulation of **PIC–nanorod** extinction.
 
-### `Figure_2c_sweep_4_p0_PIC_0,6uM` and `Figure_2d_sweep_6_p0_PIC_7,4uM`
+### `Figure_2c_PIC_0,6uM` and `Figure_2d_PIC_7,4uM`
 
 These files were obtained by sweeping the oscillator strengths and selecting the one matching the experimental extinction.
 - `Figure_2c_sweep_4_p0_PIC_0,6uM`, oscillator strength set to 0.055
